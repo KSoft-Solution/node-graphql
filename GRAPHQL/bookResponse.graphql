@@ -1,0 +1,7 @@
+# import Book from "book.graphql"
+
+type BookResponse {
+  data: Book
+  error: String
+  ok: Boolean
+}
